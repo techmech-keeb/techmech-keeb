@@ -1,6 +1,6 @@
 # Content sources
 
-Verification date: 2026-07-13
+Verification date: 2026-07-13 (initial), 2026-07-16 (BOOTH and Reddit rows re-verified)
 
 | Category | Source | Purpose | Verification | Public-use decision | Notes |
 | -------- | ------ | ------- | ------------ | ------------------- | ----- |
@@ -11,9 +11,9 @@ Verification date: 2026-07-13
 | RMK PR #928 | <https://github.com/HaoboGu/rmk/pull/928> | Confirm merged RMK contribution for extended user-keycode conversion. | verified | include | Merged upstream with tests. |
 | RMK PR #931 | <https://github.com/HaoboGu/rmk/pull/931> | Confirm merged RMK contribution for ClearEeprom handling and VIA/Vial mapping. | verified | include | Merged upstream with tests. |
 | X account | <https://x.com/techmech_> | Provide update channel for photos, events, sales, and short progress. | partially verified | link only | Page was reachable as a link target, but detailed content was not accessible in the current environment. |
-| Reddit post 1 | <https://www.reddit.com/r/MechanicalKeyboards/s/YLUbxxYn7A> | Confirm community post about OLSK60 layout and case/keycap concept. | verified | summarize | Title retrieved: “Ortholinear + 60%Case + Base set keycaps = OLSK60 !”. Not linked individually from README to keep the profile concise. |
-| Reddit post 2 | <https://www.reddit.com/r/olkb/s/ZRdX72Xwkr> | Confirm community post in r/olkb. | verified | summarize | Title retrieved; direct README listing omitted to avoid making legacy terminology prominent. |
-| Reddit post 3 | <https://www.reddit.com/r/MechanicalKeyboards/s/ytCVth5iLw> | Confirm photo-gallery community post in r/MechanicalKeyboards. | verified | summarize | Title retrieved; direct README listing omitted to avoid making legacy terminology prominent. |
-| Reddit post 4 | <https://www.reddit.com/r/ErgoMechKeyboards/s/3noFvVxPru> | Confirm community post in r/ErgoMechKeyboards. | verified | summarize | Title retrieved; direct README listing omitted to avoid making legacy terminology prominent. |
-| BOOTH | <https://techmech.booth.pm/items/5896343> | Provide OLSK60 purchase link. | user-provided | link only | Linked as a purchase destination without sales statistics. |
-| 遊舎工房 | <https://shop.yushakobo.jp/products/11324> | Provide OLSK60 purchase link. | user-provided | link only | Linked as a purchase destination without sales statistics. |
+| Reddit post 1 | <https://www.reddit.com/r/MechanicalKeyboards/comments/woh6xv/ortholinear_60case_base_set_keycaps_olsk60/> | Initial OLSK60 concept post in r/MechanicalKeyboards. | verified (2026-07-16, title via Reddit oEmbed) | link | Title: “Ortholinear + 60%Case + Base set keycaps = OLSK60 !”. Linked from README with descriptive link text (title not quoted). |
+| Reddit post 2 | <https://www.reddit.com/r/olkb/comments/1ove1nf/olsk60_v2_ortholinear_60_with_trackpoint/> | OLSK60 v2 introduction post in r/olkb. | verified (2026-07-16, title via Reddit oEmbed) | link | Linked from README with descriptive link text; the verbatim title contains TrackPoint and is not quoted, to stay within the one-mention terminology rule. |
+| Reddit post 3 | <https://www.reddit.com/r/MechanicalKeyboards/comments/1ox0s8w/olsk60_ortholinear_60_with_trackpoint_photo/> | Photo-gallery post in r/MechanicalKeyboards. | verified (2026-07-16, title via Reddit oEmbed) | link | Linked from README with descriptive link text; the verbatim title contains TrackPoint and is not quoted. |
+| Reddit post 4 | <https://www.reddit.com/r/ErgoMechKeyboards/comments/1p2j12s/an_ortholinear_60_with_an_integrated_trackpoint/> | Introduction post in r/ErgoMechKeyboards. | verified (2026-07-16, title via Reddit oEmbed) | link | Linked from README with descriptive link text; the verbatim title contains TrackPoint and is not quoted. |
+| BOOTH | <https://techmech.booth.pm/items/5896343> | Provide OLSK60 purchase link and restock-notification path. | verified (2026-07-16) | link only | Page is public and reachable. On 2026-07-16 the kit sets (basic, aluminum-case white/black, plates) were out of stock, each with a BOOTH restock-notification button; pointing-stick unit covers were in stock. Stock states change, so the README describes the restock path instead of current availability. A hidden `state-private` template in the page HTML is BOOTH boilerplate (display:none), not an actual private state. |
+| 遊舎工房 | <https://shop.yushakobo.jp/products/11324> | Provide OLSK60 purchase link. | user-provided (automated re-check on 2026-07-16 blocked by bot protection) | link only | Linked as a purchase destination without sales statistics. |
