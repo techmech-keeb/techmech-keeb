@@ -15,7 +15,12 @@ Guidance for future Codex and AI-agent updates in this repository.
 - Primary English term: pointing stick
 - TrackPoint must not be used as a product name.
 - TrackPoint must not be used in headings, badges, alt text, or GitHub topics.
-- TrackPoint may appear at most once in the README as a recognition aid or trademark note.
+- TrackPoint may appear at most once in the README body as a recognition aid
+  or trademark note. The single allowed mention is currently used in the
+  introduction paragraph.
+- URLs (for example Reddit permalinks) do not count toward the one-mention
+  limit; visible link text does. Use descriptive link text instead of quoting
+  post titles that contain TrackPoint.
 - Do not imply Lenovo affiliation, endorsement, licensing, or compatibility.
 
 ## Confidentiality
@@ -62,11 +67,17 @@ Do not add:
 ## Writing rules
 
 - English first.
-- Include only a short Japanese introduction.
+- Japanese content is limited to a short introduction near the top and one
+  compact Japanese summary section (features, purchase, support). Do not
+  fully duplicate the English content in Japanese.
 - Keep wording factual and restrained.
 - Put product value before technical details.
 - Avoid generic AI marketing language.
 - Do not add unverified claims.
-- Do not invent Reddit titles.
-- Do not include dynamic statistics.
+- Reddit posts may be linked with descriptive link text; do not present
+  invented text as a post title, and do not quote titles that contain
+  TrackPoint (see Terminology).
+- Do not include dynamic statistics. Stock states change between production
+  runs, so describe restock paths (BOOTH restock notification, X) instead of
+  asserting current availability.
 - Do not disclose implementation details.
