@@ -1,14 +1,18 @@
 # Techmech keys
 
+![OLSK60 v2.1 ortholinear keyboard with an integrated pointing stick](https://github.com/user-attachments/assets/2aa9d79e-fb0d-4367-8551-9987699a8846)
+
+<!-- TODO(media): add a short demo GIF of pointing-stick cursor control (e.g., an OLSK60 INPUT LAB session) and build photos with different keycap sets to show keycap compatibility. -->
+
 Independent keyboard designer and maker based in Japan.
 
-I design compact custom keyboards that combine ortholinear layouts, standard keycap compatibility, and integrated pointing-stick input. My projects extend from physical products to firmware, documentation, and software for real-world demonstrations.
+I design compact custom keyboards that combine ortholinear layouts, standard keycap compatibility, and integrated pointing-stick input — the input style widely known as TrackPoint™ (Techmech keys has no affiliation with Lenovo). My projects extend from physical products to firmware, documentation, and software for real-world demonstrations.
 
 日本で自作キーボードの設計・製造・販売を行っています。格子配列、標準キーキャップ互換、ポインティングスティックによる操作体験を軸に、実機で検証しながら製品を開発しています。
 
-**Primary links:** [OLSK60 v2](https://github.com/techmech-keeb/OLSK60_v2) · [X updates](https://x.com/techmech_) · [BOOTH](https://techmech.booth.pm/items/5896343) · [遊舎工房](https://shop.yushakobo.jp/products/11324) · [Community](#community-and-updates)
+**Links:** [OLSK60 v2.1 (GitHub)](https://github.com/techmech-keeb/OLSK60_v2) · [BOOTH](https://techmech.booth.pm/items/5896343) · [遊舎工房](https://shop.yushakobo.jp/products/11324) · [X updates](https://x.com/techmech_)
 
-![OLSK60 v2.1 ortholinear keyboard with an integrated pointing stick](https://github.com/user-attachments/assets/2aa9d79e-fb0d-4367-8551-9987699a8846)
+> Kit sets can be out of stock between production runs. On BOOTH, each variation has a restock-notification button（「入荷お知らせメールを受け取る」）, and restock or next-batch news is also posted on [X](https://x.com/techmech_).
 
 ## What I build
 
@@ -17,18 +21,18 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 - Integrated pointing-stick user experiences that keep pointer movement close to typing.
 - Firmware, documentation, and demonstration software for physical products.
 
-## Design principles
+## Why I build this
 
-- Keep keyboard and pointer interaction close to the home row.
-- Preserve compatibility with commonly available keycaps and GH60-compatible cases.
-- Validate ideas on physical hardware, repeated prototypes, and real use.
-- Design the product, documentation, and demonstration experience together.
+- Reaching for a mouse interrupts typing. A pointing stick built into the keyboard keeps cursor control on the home row.
+- An ortholinear grid does not have to require custom keycaps. OLSK60 is laid out so commonly available keycap sets fit.
+- A dedicated case limits an owner's choices. GH60 compatibility opens the existing ecosystem of cases instead.
+- Ideas are validated on physical hardware, repeated prototypes, and real daily use — and the product, documentation, and demonstration experience are designed together.
 
 ## Featured projects
 
 ### OLSK60 v2.1
 
-[OLSK60 v2](https://github.com/techmech-keeb/OLSK60_v2) is the main Techmech keys product: a 60% ortholinear keyboard with standard keycap compatibility and an integrated pointing stick. It is designed for GH60-compatible cases, so users can combine the keyboard with a broad range of cases and keycap sets while keeping pointer input within the keyboard. OLSK60 v2.1 is designed, produced, and sold by Techmech keys, with purchase pages available on [BOOTH](https://techmech.booth.pm/items/5896343) and [遊舎工房](https://shop.yushakobo.jp/products/11324).
+[OLSK60 v2.1](https://github.com/techmech-keeb/OLSK60_v2) is the main Techmech keys product: a 60% ortholinear keyboard with standard keycap compatibility and an integrated pointing stick. It is designed for GH60-compatible cases, so users can combine the keyboard with a broad range of cases and keycap sets while keeping pointer input within the keyboard. OLSK60 v2.1 is designed, produced, and sold by Techmech keys, with purchase pages available on [BOOTH](https://techmech.booth.pm/items/5896343) and [遊舎工房](https://shop.yushakobo.jp/products/11324).
 
 ### OLSK60 INPUT LAB
 
@@ -49,7 +53,17 @@ Both changes were submitted with corresponding tests and merged upstream.
 
 - **GitHub** is used for public projects, documentation, releases, and upstream open-source contributions.
 - **X** is the main place for product photos, event notes, sales updates, completed builds, prototypes, and short progress updates: <https://x.com/techmech_>.
-- **Reddit** is used to share keyboard builds and design discussions with English-language communities such as MechanicalKeyboards, OLKB, and ErgoMechKeyboards.
+- **Reddit** is used to share keyboard builds and design discussions with English-language communities. Selected posts:
+  - [Initial OLSK60 concept — r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/comments/woh6xv/ortholinear_60case_base_set_keycaps_olsk60/)
+  - [OLSK60 v2 introduction — r/olkb](https://www.reddit.com/r/olkb/comments/1ove1nf/olsk60_v2_ortholinear_60_with_trackpoint/)
+  - [OLSK60 photo gallery — r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/comments/1ox0s8w/olsk60_ortholinear_60_with_trackpoint_photo/)
+  - [OLSK60 introduction for the ergonomic-keyboard community — r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/comments/1p2j12s/an_ortholinear_60_with_an_integrated_trackpoint/)
+
+## 日本語での概要
+
+- **OLSK60 v2.1** は、格子配列（オーソリニア）60%・標準キーキャップ互換・ポインティングスティック内蔵の自作キーボードキットです。GH60互換ケースに対応しています。
+- 購入は [BOOTH](https://techmech.booth.pm/items/5896343) または [遊舎工房](https://shop.yushakobo.jp/products/11324) から。キットが在庫切れの場合は、BOOTHの「入荷お知らせメールを受け取る」に登録いただくか、[X](https://x.com/techmech_) の再入荷告知をご覧ください。
+- 公開ソフトウェア・ドキュメントの不具合報告は、各リポジトリの Issues へお願いします。購入・配送に関する質問は、購入先の連絡手段をご利用ください。
 
 ## Contact
 
