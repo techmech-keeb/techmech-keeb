@@ -1,15 +1,19 @@
 # Content sources
 
-Verification date: 2026-07-13 (initial), 2026-07-16 (BOOTH and Reddit rows re-verified)
+Verification date: 2026-07-13 (initial), 2026-07-16 (BOOTH and Reddit rows re-verified), 2026-08-19 (public repository and contribution review)
 
 | Category | Source | Purpose | Verification | Public-use decision | Notes |
 | -------- | ------ | ------- | ------------ | ------------------- | ----- |
 | GitHub profile | <https://github.com/techmech-keeb> | Confirm public profile entry point and account identity. | partially verified | link only | Used as account context only. |
 | OLSK60_v2 | <https://github.com/techmech-keeb/OLSK60_v2> | Confirm OLSK60 v2.1 positioning, layout, compatibility, sales links, and official image. | verified | summarize | Product value was summarized without internal implementation details. |
-| keyboard_and_pointer_tester | <https://github.com/techmech-keeb/keyboard_and_pointer_tester> | Confirm keyboard and pointer input visualization software. | verified | summarize | Described as demonstration software; internal processing details were omitted. |
+| OLSK60 | <https://github.com/techmech-keeb/OLSK60> | Confirm the original OLSK60's relationship to the current model and its discontinued sales status. | verified (2026-08-19) | link and summarize | Included as the predecessor for existing owners and project history; firmware and hardware details were omitted. |
+| keyboard_and_pointer_tester | <https://github.com/techmech-keeb/keyboard_and_pointer_tester> | Confirm keyboard and pointer input visualization, guided OLSK60 tours, board profiles, and Windows operating modes. | verified (2026-08-19) | summarize | Described through user-facing demonstration value; protocol and internal processing details were omitted. |
 | 1U_Rotary_Encoder_Footprint | <https://github.com/techmech-keeb/1U_Rotary_Encoder_Footprint> | Confirm reusable KiCad symbol and footprint, Cherry MX-position fit, independent measurement, and license. | verified | summarize | Presented as an open-hardware library only, not as the full OLSK60 design. |
-| RMK PR #928 | <https://github.com/HaoboGu/rmk/pull/928> | Confirm merged RMK contribution for extended user-keycode conversion. | verified | include | Merged upstream with tests. |
-| RMK PR #931 | <https://github.com/HaoboGu/rmk/pull/931> | Confirm merged RMK contribution for ClearEeprom handling and VIA/Vial mapping. | verified | include | Merged upstream with tests. |
+| RMK PR #928 | <https://github.com/rmk-rs/rmk/pull/928> | Confirm merged RMK contribution for extended user-keycode conversion. | verified (2026-08-19) | include | Merged upstream with tests. |
+| RMK PR #931 | <https://github.com/rmk-rs/rmk/pull/931> | Confirm merged RMK contribution for ClearEeprom handling and VIA/Vial mapping. | verified (2026-08-19) | include | Merged upstream with tests. |
+| RMK PR #967 | <https://github.com/rmk-rs/rmk/pull/967> | Confirm merged RMK contribution for rejecting invalid `Overwritten` macro attributes. | verified (2026-08-19) | include | Merged upstream with tests. |
+| RMK PR #1060 | <https://github.com/rmk-rs/rmk/pull/1060> | Confirm merged RMK contribution for returning persisted VIA layout options. | verified (2026-08-19) | include | Merged upstream with tests. |
+| usbd-hid PR #93 | <https://github.com/twitchyliquid64/usbd-hid/pull/93> | Track the proposed HID descriptor macro contribution. | open (2026-08-19) | defer | Not included in the profile while the contribution remains unmerged. |
 | X account | <https://x.com/techmech_> | Provide update channel for photos, events, sales, and short progress. | partially verified | link only | Page was reachable as a link target, but detailed content was not accessible in the current environment. |
 | Reddit post 1 | <https://www.reddit.com/r/MechanicalKeyboards/comments/woh6xv/ortholinear_60case_base_set_keycaps_olsk60/> | Initial OLSK60 concept post in r/MechanicalKeyboards. | verified (2026-07-16, title via Reddit oEmbed) | link | Title: “Ortholinear + 60%Case + Base set keycaps = OLSK60 !”. Linked from README with descriptive link text (title not quoted). |
 | Reddit post 2 | <https://www.reddit.com/r/olkb/comments/1ove1nf/olsk60_v2_ortholinear_60_with_trackpoint/> | OLSK60 v2 introduction post in r/olkb. | verified (2026-07-16, title via Reddit oEmbed) | link | Linked from README with descriptive link text; the verbatim title contains TrackPoint and is not quoted, to stay within the one-mention terminology rule. |
