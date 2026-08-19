@@ -2,7 +2,7 @@
 
 ![OLSK60 v2.1 ortholinear keyboard with an integrated pointing stick](https://github.com/user-attachments/assets/2aa9d79e-fb0d-4367-8551-9987699a8846)
 
-<!-- TODO(media): add a short demo GIF of pointing-stick cursor control (e.g., an OLSK60 INPUT LAB session) and build photos with different keycap sets to show keycap compatibility. -->
+<!-- TODO(media): add a short demo GIF of pointing-stick cursor control (e.g., a Techmech keys INPUT LAB session) and build photos with different keycap sets to show keycap compatibility. -->
 
 Independent keyboard designer and maker based in Japan.
 
@@ -34,9 +34,11 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 
 [OLSK60 v2.1](https://github.com/techmech-keeb/OLSK60_v2) is the main Techmech keys product: a 60% ortholinear keyboard with standard keycap compatibility and an integrated pointing stick. It is designed for GH60-compatible cases, so users can combine the keyboard with a broad range of cases and keycap sets while keeping pointer input within the keyboard. OLSK60 v2.1 is designed, produced, and sold by Techmech keys, with purchase pages available on [BOOTH](https://techmech.booth.pm/items/5896343) and [遊舎工房](https://shop.yushakobo.jp/products/11324).
 
-### OLSK60 INPUT LAB
+The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinued predecessor to the current model; its repository remains available for existing owners and as a record of the project.
 
-[OLSK60 INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests, and supports kiosk-style Windows operation so visitors can experience the product without setup friction. The project also connects with Raw HID and Vial workflows without documenting the product's internal input implementation.
+### Techmech keys INPUT LAB
+
+[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests and guided OLSK60 feature tours, and supports both kiosk-style and regular Windows operation. Selectable board profiles also let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
 
 ### 1U Rotary Encoder Switch — KiCad Library
 
@@ -44,10 +46,12 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 
 ## Open-source contributions
 
-- Fixed extended user-keycode conversion in RMK so User16 through User31 are handled correctly in VIA/Vial conversion ([HaoboGu/rmk#928](https://github.com/HaoboGu/rmk/pull/928)).
-- Added ClearEeprom handling and VIA/Vial mapping to RMK ([HaoboGu/rmk#931](https://github.com/HaoboGu/rmk/pull/931)).
+- Fixed extended user-keycode conversion in RMK so User16 through User31 are handled correctly in VIA/Vial conversion ([rmk-rs/rmk#928](https://github.com/rmk-rs/rmk/pull/928)).
+- Added ClearEeprom handling and VIA/Vial mapping to RMK ([rmk-rs/rmk#931](https://github.com/rmk-rs/rmk/pull/931)).
+- Made invalid `Overwritten` macro attributes fail at compile time instead of being silently ignored ([rmk-rs/rmk#967](https://github.com/rmk-rs/rmk/pull/967)).
+- Fixed VIA layout-option queries so they return the value persisted by the keyboard ([rmk-rs/rmk#1060](https://github.com/rmk-rs/rmk/pull/1060)).
 
-Both changes were submitted with corresponding tests and merged upstream.
+All four changes were merged upstream with corresponding tests.
 
 ## Community and updates
 
