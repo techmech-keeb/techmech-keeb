@@ -2,7 +2,7 @@
 
 ![OLSK60 v2.1 ortholinear keyboard with an integrated pointing stick](https://github.com/user-attachments/assets/2aa9d79e-fb0d-4367-8551-9987699a8846)
 
-<!-- TODO(media): add a short demo GIF of pointing-stick cursor control (e.g., an OLSK60 INPUT LAB session) and build photos with different keycap sets to show keycap compatibility. -->
+<!-- TODO(media): add a short demo GIF of pointing-stick cursor control (e.g., a Techmech keys INPUT LAB session) and build photos with different keycap sets to show keycap compatibility. -->
 
 Independent keyboard designer and maker based in Japan.
 
@@ -36,9 +36,9 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 
 The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinued predecessor to the current model; its repository remains available for existing owners and as a record of the project.
 
-### OLSK60 INPUT LAB
+### Techmech keys INPUT LAB
 
-[OLSK60 INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests and guided OLSK60 feature tours, and supports both kiosk-style and regular Windows operation. Selectable board profiles also let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
+[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests and guided OLSK60 feature tours, and supports both kiosk-style and regular Windows operation. Selectable board profiles also let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
 
 ### 1U Rotary Encoder Switch — KiCad Library
 

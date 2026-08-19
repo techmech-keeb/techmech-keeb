@@ -44,7 +44,7 @@ Do not add or summarize:
 ## Source of truth
 
 - Current OLSK60 specifications: `techmech-keeb/OLSK60_v2`
-- OLSK60 INPUT LAB: `techmech-keeb/keyboard_and_pointer_tester`
+- Techmech keys INPUT LAB: `techmech-keeb/keyboard_and_pointer_tester`
 - 1U encoder library: `techmech-keeb/1U_Rotary_Encoder_Footprint`
 - RMK contributions: upstream pull requests in `rmk-rs/rmk`
 - Sales status: product README files and sales pages
