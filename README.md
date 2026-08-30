@@ -46,12 +46,16 @@ The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinu
 
 ## Open-source contributions
 
-- Fixed extended user-keycode conversion in RMK so User16 through User31 are handled correctly in VIA/Vial conversion ([rmk-rs/rmk#928](https://github.com/rmk-rs/rmk/pull/928)).
-- Added ClearEeprom handling and VIA/Vial mapping to RMK ([rmk-rs/rmk#931](https://github.com/rmk-rs/rmk/pull/931)).
-- Made invalid `Overwritten` macro attributes fail at compile time instead of being silently ignored ([rmk-rs/rmk#967](https://github.com/rmk-rs/rmk/pull/967)).
-- Fixed VIA layout-option queries so they return the value persisted by the keyboard ([rmk-rs/rmk#1060](https://github.com/rmk-rs/rmk/pull/1060)).
+The list below covers pull requests authored by this account and merged in repositories outside it. It is regenerated automatically by a [scheduled workflow](.github/workflows/update-contributions.yml); do not edit between the markers by hand.
 
-All four changes were merged upstream with corresponding tests.
+<!-- EXTERNAL-CONTRIBUTIONS:START -->
+### [rmk-rs/rmk](https://github.com/rmk-rs/rmk)
+
+- [Fixed extended user-keycode conversion so User16 through User31 are handled correctly in VIA/Vial conversion](https://github.com/rmk-rs/rmk/pull/928)
+- [Added ClearEeprom handling and VIA/Vial mapping](https://github.com/rmk-rs/rmk/pull/931)
+- [Made invalid `Overwritten` macro attributes fail at compile time instead of being silently ignored](https://github.com/rmk-rs/rmk/pull/967)
+- [Fixed VIA layout-option queries so they return the value persisted by the keyboard](https://github.com/rmk-rs/rmk/pull/1060)
+<!-- EXTERNAL-CONTRIBUTIONS:END -->
 
 ## Community and updates
 
