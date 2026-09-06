@@ -51,10 +51,19 @@ The list below covers pull requests authored by this account and merged in repos
 <!-- EXTERNAL-CONTRIBUTIONS:START -->
 ### [rmk-rs/rmk](https://github.com/rmk-rs/rmk)
 
-- [Fixed extended user-keycode conversion so User16 through User31 are handled correctly in VIA/Vial conversion](https://github.com/rmk-rs/rmk/pull/928)
-- [Added ClearEeprom handling and VIA/Vial mapping](https://github.com/rmk-rs/rmk/pull/931)
-- [Made invalid `Overwritten` macro attributes fail at compile time instead of being silently ignored](https://github.com/rmk-rs/rmk/pull/967)
-- [Fixed VIA layout-option queries so they return the value persisted by the keyboard](https://github.com/rmk-rs/rmk/pull/1060)
+- [fix(vial): widen user keycode mask to 5 bits so User16-31 don't alias to User0-15](https://github.com/rmk-rs/rmk/pull/928) — merged 2026-07-12
+- [fix(keyboard): implement ClearEeprom keycode (storage reset + Vial mapping)](https://github.com/rmk-rs/rmk/pull/931) — merged 2026-07-12
+- [fix(macro): make invalid `#\[Overwritten(...)\]` attributes a compile error](https://github.com/rmk-rs/rmk/pull/967) — merged 2026-08-01
+- [fix(via): return persisted layout options from GetKeyboardValue](https://github.com/rmk-rs/rmk/pull/1060) — merged 2026-08-17
+- [usb: honour SET_PROTOCOL on the boot-subclass keyboard interface](https://github.com/rmk-rs/rmk/pull/1107) — merged 2026-09-02
+
+### [embassy-rs/embassy](https://github.com/embassy-rs/embassy)
+
+- [rp: implement USB remote wakeup](https://github.com/embassy-rs/embassy/pull/6870) — merged 2026-09-01
+
+### [twitchyliquid64/usbd-hid](https://github.com/twitchyliquid64/usbd-hid)
+
+- [macros: support logical_max and physical_min/physical_max in collection specs](https://github.com/twitchyliquid64/usbd-hid/pull/93) — merged 2026-08-27
 <!-- EXTERNAL-CONTRIBUTIONS:END -->
 
 ## Community and updates
