@@ -34,11 +34,13 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 
 [OLSK60 v2.1](https://github.com/techmech-keeb/OLSK60_v2) is the main Techmech keys product: a 60% ortholinear keyboard with standard keycap compatibility and an integrated pointing stick. It is designed for GH60-compatible cases, so users can combine the keyboard with a broad range of cases and keycap sets while keeping pointer input within the keyboard. OLSK60 v2.1 is designed, produced, and sold by Techmech keys, with purchase pages available on [BOOTH](https://techmech.booth.pm/items/5896343) and [遊舎工房](https://shop.yushakobo.jp/products/11324).
 
+The key layout can be changed at any time with [Vial](https://get.vial.today/); the keyboard definition is built into the firmware. Firmware v3 (released 2026-10-08) is Vial-only, and owners who bought a kit before that date can update from the [firmware guide](https://github.com/techmech-keeb/OLSK60_v2/blob/main/firmware/README.md).
+
 The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinued predecessor to the current model; its repository remains available for existing owners and as a record of the project.
 
 ### Techmech keys INPUT LAB
 
-[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests and guided OLSK60 feature tours, and supports both kiosk-style and regular Windows operation. Selectable board profiles also let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
+[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes key presses and pointer movement, provides typing practice with words-per-minute and accuracy results, and supports both kiosk-style and regular Windows operation. It identifies a connected OLSK60 through Vial and shows its current keymap, and selectable board profiles let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
 
 ### 1U Rotary Encoder Switch — KiCad Library
 
@@ -49,12 +51,26 @@ The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinu
 The list below covers pull requests authored by this account and merged in repositories outside it. It is regenerated automatically by a [scheduled workflow](.github/workflows/update-contributions.yml); do not edit between the markers by hand.
 
 <!-- EXTERNAL-CONTRIBUTIONS:START -->
+### [ergohaven/entropy](https://github.com/ergohaven/entropy)
+
+- [fix(matrix-tester): decode switch matrix rows MSB byte first for all firmware](https://github.com/ergohaven/entropy/pull/160) — merged 2026-09-07
+- [fix(matrix-tester): keep the board below the header and honour layout options](https://github.com/ergohaven/entropy/pull/161) — merged 2026-09-07
+
 ### [rmk-rs/rmk](https://github.com/rmk-rs/rmk)
 
-- [Fixed extended user-keycode conversion so User16 through User31 are handled correctly in VIA/Vial conversion](https://github.com/rmk-rs/rmk/pull/928)
-- [Added ClearEeprom handling and VIA/Vial mapping](https://github.com/rmk-rs/rmk/pull/931)
-- [Made invalid `Overwritten` macro attributes fail at compile time instead of being silently ignored](https://github.com/rmk-rs/rmk/pull/967)
-- [Fixed VIA layout-option queries so they return the value persisted by the keyboard](https://github.com/rmk-rs/rmk/pull/1060)
+- [fix(vial): widen user keycode mask to 5 bits so User16-31 don't alias to User0-15](https://github.com/rmk-rs/rmk/pull/928) — merged 2026-07-12
+- [fix(keyboard): implement ClearEeprom keycode (storage reset + Vial mapping)](https://github.com/rmk-rs/rmk/pull/931) — merged 2026-07-12
+- [fix(macro): make invalid `#\[Overwritten(...)\]` attributes a compile error](https://github.com/rmk-rs/rmk/pull/967) — merged 2026-08-01
+- [fix(via): return persisted layout options from GetKeyboardValue](https://github.com/rmk-rs/rmk/pull/1060) — merged 2026-08-17
+- [usb: honour SET_PROTOCOL on the boot-subclass keyboard interface](https://github.com/rmk-rs/rmk/pull/1107) — merged 2026-09-02
+
+### [embassy-rs/embassy](https://github.com/embassy-rs/embassy)
+
+- [rp: implement USB remote wakeup](https://github.com/embassy-rs/embassy/pull/6870) — merged 2026-09-01
+
+### [twitchyliquid64/usbd-hid](https://github.com/twitchyliquid64/usbd-hid)
+
+- [macros: support logical_max and physical_min/physical_max in collection specs](https://github.com/twitchyliquid64/usbd-hid/pull/93) — merged 2026-08-27
 <!-- EXTERNAL-CONTRIBUTIONS:END -->
 
 ## Community and updates
@@ -70,6 +86,7 @@ The list below covers pull requests authored by this account and merged in repos
 ## 日本語での概要
 
 - **OLSK60 v2.1** は、格子配列（オーソリニア）60%・標準キーキャップ互換・ポインティングスティック内蔵の自作キーボードキットです。GH60互換ケースに対応しています。
+- キー配置は [Vial](https://get.vial.today/) でいつでも変更できます。ファームウェア v3（2026年10月8日公開）は Vial 専用で、それ以前に購入された方は[ファームウェア案内](https://github.com/techmech-keeb/OLSK60_v2/blob/main/firmware/README.md)の手順で更新できます。
 - 購入は [BOOTH](https://techmech.booth.pm/items/5896343) または [遊舎工房](https://shop.yushakobo.jp/products/11324) から。キットが在庫切れの場合は、BOOTHの「入荷お知らせメールを受け取る」に登録いただくか、[X](https://x.com/techmech_) の再入荷告知をご覧ください。
 - 公開ソフトウェア・ドキュメントの不具合報告は、各リポジトリの Issues へお願いします。購入・配送に関する質問は、購入先の連絡手段をご利用ください。
 
