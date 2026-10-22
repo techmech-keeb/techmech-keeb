@@ -20,6 +20,7 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 - Ortholinear layouts designed to work with commonly available keycap sets.
 - Integrated pointing-stick user experiences that keep pointer movement close to typing.
 - Firmware, documentation, and demonstration software for physical products.
+- Desktop input accessories, currently a Bluetooth-to-USB remapper prototype.
 
 ## Why I build this
 
@@ -41,6 +42,10 @@ The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinu
 ### Techmech keys INPUT LAB
 
 [Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes key presses and pointer movement, provides typing practice with words-per-minute and accuracy results, and supports both kiosk-style and regular Windows operation. It identifies a connected OLSK60 through Vial and shows its current keymap, and selectable board profiles let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
+
+### Orbit Remapper
+
+[Orbit Remapper](https://github.com/techmech-keeb/orbit-remapper) is a desktop remapper built on a single M5Dial (ESP32-S3). It receives up to two Bluetooth LE keyboards or mice at once, remaps them with the unmodified core of [HID Remapper](https://github.com/jfedor2/hid-remapper) by jfedor2, and presents them to the PC over USB, so the existing HID Remapper web configurator can be used as is. The round screen and dial show connection state and handle pairing and device management. It is an independent derivative, not an official HID Remapper model, and it is still under development: the first firmware release (v0.1.0, 2026-10-02) has been tested only on the original M5Dial with the author's own devices. Software is published under MIT, hardware design files under CERN-OHL-P-2.0, and documentation under CC BY 4.0.
 
 ### 1U Rotary Encoder Switch — KiCad Library
 
@@ -87,6 +92,7 @@ The list below covers pull requests authored by this account and merged in repos
 
 - **OLSK60 v2.1** は、格子配列（オーソリニア）60%・標準キーキャップ互換・ポインティングスティック内蔵の自作キーボードキットです。GH60互換ケースに対応しています。
 - キー配置は [Vial](https://get.vial.today/) でいつでも変更できます。ファームウェア v3（2026年10月8日公開）は Vial 専用で、それ以前に購入された方は[ファームウェア案内](https://github.com/techmech-keeb/OLSK60_v2/blob/main/firmware/README.md)の手順で更新できます。
+- **Orbit Remapper** は、M5Dial 1 台で Bluetooth のキーボード・マウスを受け取り、USB で PC に出す卓上リマッパーです（[開発中](https://github.com/techmech-keeb/orbit-remapper)）。
 - 購入は [BOOTH](https://techmech.booth.pm/items/5896343) または [遊舎工房](https://shop.yushakobo.jp/products/11324) から。キットが在庫切れの場合は、BOOTHの「入荷お知らせメールを受け取る」に登録いただくか、[X](https://x.com/techmech_) の再入荷告知をご覧ください。
 - 公開ソフトウェア・ドキュメントの不具合報告は、各リポジトリの Issues へお願いします。購入・配送に関する質問は、購入先の連絡手段をご利用ください。
 

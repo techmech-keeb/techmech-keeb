@@ -46,6 +46,8 @@ Do not add or summarize:
 - Current OLSK60 specifications: `techmech-keeb/OLSK60_v2`
 - Techmech keys INPUT LAB: `techmech-keeb/keyboard_and_pointer_tester`
 - 1U encoder library: `techmech-keeb/1U_Rotary_Encoder_Footprint`
+- Orbit Remapper: `techmech-keeb/orbit-remapper` (describe it as a derivative of
+  HID Remapper by jfedor2 and as under development, as its README does)
 - RMK contributions: upstream pull requests in `rmk-rs/rmk`
 - Sales status: product README files and sales pages
 - X and Reddit: linked posts and profiles only
