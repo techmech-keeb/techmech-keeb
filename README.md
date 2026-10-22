@@ -34,6 +34,8 @@ I design compact custom keyboards that combine ortholinear layouts, standard key
 
 [OLSK60 v2.1](https://github.com/techmech-keeb/OLSK60_v2) is the main Techmech keys product: a 60% ortholinear keyboard with standard keycap compatibility and an integrated pointing stick. It is designed for GH60-compatible cases, so users can combine the keyboard with a broad range of cases and keycap sets while keeping pointer input within the keyboard. OLSK60 v2.1 is designed, produced, and sold by Techmech keys, with purchase pages available on [BOOTH](https://techmech.booth.pm/items/5896343) and [遊舎工房](https://shop.yushakobo.jp/products/11324).
 
+The key layout can be changed at any time with [Vial](https://get.vial.today/); the keyboard definition is built into the firmware. Firmware v3 (released 2026-10-08) is Vial-only, and owners who bought a kit before that date can update from the [firmware guide](https://github.com/techmech-keeb/OLSK60_v2/blob/main/firmware/README.md).
+
 The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinued predecessor to the current model; its repository remains available for existing owners and as a record of the project.
 
 ### Techmech keys INPUT LAB
@@ -84,6 +86,7 @@ The list below covers pull requests authored by this account and merged in repos
 ## 日本語での概要
 
 - **OLSK60 v2.1** は、格子配列（オーソリニア）60%・標準キーキャップ互換・ポインティングスティック内蔵の自作キーボードキットです。GH60互換ケースに対応しています。
+- キー配置は [Vial](https://get.vial.today/) でいつでも変更できます。ファームウェア v3（2026年10月8日公開）は Vial 専用で、それ以前に購入された方は[ファームウェア案内](https://github.com/techmech-keeb/OLSK60_v2/blob/main/firmware/README.md)の手順で更新できます。
 - 購入は [BOOTH](https://techmech.booth.pm/items/5896343) または [遊舎工房](https://shop.yushakobo.jp/products/11324) から。キットが在庫切れの場合は、BOOTHの「入荷お知らせメールを受け取る」に登録いただくか、[X](https://x.com/techmech_) の再入荷告知をご覧ください。
 - 公開ソフトウェア・ドキュメントの不具合報告は、各リポジトリの Issues へお願いします。購入・配送に関する質問は、購入先の連絡手段をご利用ください。
 
