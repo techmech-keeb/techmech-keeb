@@ -40,7 +40,7 @@ The original [OLSK60](https://github.com/techmech-keeb/OLSK60) is the discontinu
 
 ### Techmech keys INPUT LAB
 
-[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes keyboard and pointer input, provides typing tests and guided OLSK60 feature tours, and supports both kiosk-style and regular Windows operation. Selectable board profiles also let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
+[Techmech keys INPUT LAB](https://github.com/techmech-keeb/keyboard_and_pointer_tester) is demonstration software for exhibitions and retail settings. It visualizes key presses and pointer movement, provides typing practice with words-per-minute and accuracy results, and supports both kiosk-style and regular Windows operation. It identifies a connected OLSK60 through Vial and shows its current keymap, and selectable board profiles let it demonstrate OLSK60 alongside common ANSI 60% and full-size keyboards.
 
 ### 1U Rotary Encoder Switch — KiCad Library
 
